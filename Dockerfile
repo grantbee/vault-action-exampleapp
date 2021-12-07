@@ -1,5 +1,5 @@
 FROM ruby:2.6.2
-MAINTAINER Lynn Frank <fwebber@hashicorp.com>
+MAINTAINER Grant Bigham <grantb1108@gmail.com>
 
 ARG app_secret=unset
 
