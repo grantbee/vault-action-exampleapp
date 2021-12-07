@@ -8,8 +8,8 @@ spec:
   containers:
   - name: kaniko
     image: gcr.io/kaniko-project/executor:latest
-    args: ["--context=git://github.com/grantbee/kaniko-demo",
-            "--destination=grantb/devops-toolkit:1.0.0"]
+    args: ["--context=git://github.com/grantbee/vault-action-exampleapp",
+            "--destination=grantb/vault-action-exampleapp:1.0.0"]
     volumeMounts:
       - name: kaniko-secret
         mountPath: /kaniko/.docker
